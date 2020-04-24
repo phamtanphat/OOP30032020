@@ -37,8 +37,10 @@ public class MainActivity extends AppCompatActivity {
 //        reference
         // Tham chiếu : liên quan về kiểu dữ liệu object khi truyền thì truyền tham chiếu
         // Tham trị : liên quan về kiểu dữ liệu nguyên thủy khi truyền thì truyền tham trị
+
+        Animal meo = new Animal("Con mèo", 2);
+        meo.setName("");
+        Log.d("BBBB",meo.getName());
     }
-//    public void showAge(Animal meo){
-//        Toast.makeText(this, age + "", Toast.LENGTH_SHORT).show();
-//    }
+
 }
