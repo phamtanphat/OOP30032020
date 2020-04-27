@@ -6,6 +6,7 @@ public class Animal {
     // Phần số 1 : Thuộc tính
     private String name;
     private int weight;
+    static String category = "Animal";
 
     public Animal(String name, int weight) {
         this.name = name;
